@@ -1,5 +1,6 @@
 AUTHOR = 'Richard Sharpe'
 SITENAME = 'NorthAtlantech'
+DESCRIPTION = 'A Blog about a Newfoundlanders obsession with tech'
 SITEURL = ''
 
 PATH = 'content'
@@ -7,6 +8,11 @@ PATH = 'content'
 TIMEZONE = 'America/St_Johns'
 
 DEFAULT_LANG = 'en'
+
+THEME = "theme/pelican-mg"
+
+DIRECT_TEMPLATES = ('index', 'categories', 'archives')
+DISABLE_SEARCH = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
